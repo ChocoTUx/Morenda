@@ -80,6 +80,13 @@
   color: #BD1622;
   text-decoration: none;
 }
+/* ###### Alert ###### */
+#alert {
+  padding: 10px 0px;
+  background-color: #FFEC00;
+  font-family: montserratExtraBold;
+}
+/* ###### Alert end ###### */
 /* ###### Calendar ###### */
 #kalendar {
   margin-top: 5px;
