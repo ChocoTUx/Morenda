@@ -25,6 +25,9 @@
 /* ##################### */
 /* ###### FOR ALL ###### */
 /* ##################### */
+body {
+  background-color: #f8f8f8;
+}
 #head {
   background-color: #006EC2 !important;
   padding-top: 20px;
@@ -83,30 +86,64 @@
 /* ###### Alert ###### */
 #alert {
   padding: 10px 0px;
-  margin-top:5px;
-  background-color: #aaaaa5;
+  background-color: #FFEC00;
   font-family: montserratExtraBold;
 }
 /* ###### Alert end ###### */
+.section-header {
+  background-color: #006EC2;
+  font-size: 1.5em;
+  color: white;
+  padding: 10px;
+  margin: 15px 0px 0px 0px;
+}
+/* ###### Newsfeed ###### */
+#newsfeed {
+  background-color: #ffffff;
+}
+.news-box {
+  padding: 20px 50px;
+  font-size: 1.5em;
+  font-family: clubFont;
+  color: #006EC2;
+}
+/* ###### Newsfeed end ###### */
+#records .card-header {
+  background-color: #006EC2;
+  border-radius: 0 0 0 0;
+  border: none;
+  color: white;
+}
+#records .card {
+  margin: 0px 10px;
+  border-radius: 0 0 0 0;
+  border: none;
+}
+#records {
+  margin: 20px 0px;
+}
+#records .list-group li {
+  background-color: #ffffff;
+  border-radius: 0 0 0 0;
+  border: none;
+}
 /* ###### Calendar ###### */
 #kalendar {
-  margin-top: 5px;
+  margin-top: 15px;
   margin-right: 5%;
   width: 100%;
 }
 #wh {
-  color: white;
+  color: #ffffff;
 }
 .calendar {
   /*width: 45rem;*/
   width: 100%;
   /*height: 52rem;*/
-  height: 31rem;  
-  background-color: white;
+  height: 31rem;
+  background-color: #ffffff;
   margin-top: 7px;
   margin-right: 0px;
-  border: 1px inset #116EB7;
-  border-radius: 3px;
 }
 .month {
   width: 100%;
@@ -134,7 +171,7 @@
 }
 .month p {
   /*font-size: 1.6rem;*/
-   font-size: 1.0rem;
+  font-size: 1rem;
 }
 .weekdays {
   width: 100%;
@@ -161,7 +198,7 @@
   padding: 0.2rem;
 }
 .days div {
-  font-size: 1.0rem;
+  font-size: 1rem;
   /*margin: 0.3rem;*/
   margin: 0.15%;
   /*width: calc(40rem / 7);*/
