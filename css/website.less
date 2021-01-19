@@ -44,7 +44,9 @@ body {
 }
 
 #head {
-  background-color: @club-blue !important;
+  // background-color: @club-blue !important;
+  background: rgb(0,110,194);
+  background: linear-gradient(0deg, rgba(0,110,194,1) 0%, rgba(0, 43, 77, 0.918) 100%);
   padding-top: 20px;
 }
 
@@ -115,6 +117,8 @@ body {
   padding: 10px 0px; 
   background-color: #acacac;
   font-family: montserratExtraBold;
+  margin: 10px 0px 0px 0px;
+  min-height: 90px;
 }
 
 /* ###### Alert end ###### */
@@ -164,6 +168,47 @@ body {
   border-radius: 0 0 0 0;
   border: none;
 }
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+  border-top: 35px solid #ffa500;
+  margin: auto;
+}
+
+.arrow_box {
+	position: relative;
+	background: #fff;
+	border-bottom: 2px solid #000;
+}
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(255, 165, 0, 0);
+	border-top-color: #fff;
+	border-width: 30px;
+	margin-left: -30px;
+}
+.arrow_box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: #000;
+	border-width: 33px;
+	margin-left: -33px;
+}
+
+
+
 .cont-header{
   background-color: @club-blue;  
   color: white;
