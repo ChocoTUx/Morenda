@@ -62,6 +62,36 @@ body {
   letter-spacing: 0.20em;
   text-transform: uppercase;
 }
+.navbar {
+  min-height: 70px;
+}
+
+.navbar-nav > li > a {
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.nav hr {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav hr {
+      height: 0.4rem;
+      margin: 0;
+      background: white;
+      border: none;
+      transition: .3s ease-in-out;
+      display: block;        
+  }
+}
+
+/* All mozilla versions */
+@-moz-document url-prefix() { 
+.nav hr {
+  float: left; 
+}
+}
 
 #nav_main_menu {
   background-color: @club-blue;
@@ -81,6 +111,25 @@ body {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-feature-settings: 'cpsp' on;  
+  border-bottom: 4px solid @club-blue; 
+}
+.nav-item:hover {
+  font-family: clubFont;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom:10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-feature-settings: 'cpsp' on; 
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+  border-bottom: 4px solid #ffffff; 
+  
 }
 
 #name {
@@ -118,7 +167,6 @@ body {
   background-color: #acacac;
   font-family: montserratExtraBold;
   margin: 10px 0px 0px 0px;
-  min-height: 90px;
 }
 
 /* ###### Alert end ###### */
