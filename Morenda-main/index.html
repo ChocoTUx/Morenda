@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="./css/fontawesome.min.css">
     <link rel="stylesheet" href="./css/solid.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700&amp;subset=latin,latin-ext" media="all">
 </head>
 
 <body>
@@ -51,7 +52,8 @@
             <div class="row text-center" style="height:75px;">
                 <div class="col-12" id="head-title">
                     <a>
-                       <span style="color:rgba(214, 35, 35, 0.931)"> AC </span> Moravská Slavia Brno
+                       <!-- <span style="color:rgba(214, 35, 35, 0.931)"> AC </span> Moravská Slavia Brno -->
+                       AC Moravská Slavia Brno
                     </a>
                 </div> 
             </div>
@@ -132,18 +134,27 @@
     </div>
 </nav>
     
-<div class="row" id="alert">
-    <div class="container">
-        <div class="col-12">
-                Podmínky nového náboru děti do oddílu. <a href="">ZDE</a>
-        </div>
-    </div>
-</div>
-<div class="container" style="background-color: #fff;">
+
+<div class="container" id="feedcont">
     
     <div class="row">
         <div class="col-sm-12 col-md-8">
-           
+            <!-- <div class="row" id="alert">
+                <div class="container">
+                    <div class="col-12" style="color:#333;">
+                            <div style="border-left: 4px solid #ffa500;
+                            padding-left: 8px;">Podmínky nového náboru děti do oddílu. <a href="">ZDE</a></div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="row" id="alert" style=" border-left: 8px solid #ffa500;">
+                <div class="container">
+                    <div class="col-12" style="color:#333;">
+                            <div style="
+                            padding-left: 8px;">Podmínky nového náboru děti do oddílu. <a href="">ZDE</a></div>
+                    </div>
+                </div>
+            </div>
             <div class="row section-header">                    
                 <div class="col-sm-12">
                     NOVINKY    
@@ -161,7 +172,42 @@
                     </div>
                 </div>
             </section>
-            <div class="row" style="margin: 20px;">
+
+
+            <div class="row" id="boxies" style="margin-top: 20px;">
+                <div class="col-sm-12 col-md-6 " style="margin-bottom: 30px; padding-right: 4px;">
+                <div style="background: #fff;">
+
+                    <div style="height: 56px; padding-top: 10px; font-size: 1.5em; text-align: center; background-color: #006EC2; color:white;">REKORDY</div>
+                        <ul class="list-group list-group-flush" style="background-color: transparent;">
+                            <li class="list-group-item" style="background-color: transparent;"><img src="./web_/img/medal.png" class="float-left" style="margin-right: 5px;">
+                        <b>Anežka Přemysovna získala zlatou medaily</b>
+                        na MČR žactva ve skoku dalekém. </li>
+                            <li class="list-group-item" style="background-color: transparent;"><b>Mladší žactvo uspělo na Mistrovství JMK</b> a odvezlo si pěknou 5. příčku</li>
+                            <li class="list-group-item" style="background-color: transparent;"><b>Mladší žactvo uspělo na Mistrovství JMK</b> a odvezlo si pěknou 5. příčku</li>
+                            <li class="list-group-item" style="background-color: transparent; border-bottom: none;"><b>Mladší žactvo uspělo na Mistrovství JMK</b> a odvezlo si pěknou 5. příčku</li>
+                        </ul> 
+                        <div style="text-align: center; font-weight: bold; font-size: 1.1em; position: relative;top: 0px; height:30px; background-color: #D9A21B;">Starší výsledky</div> 
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 " style="margin-bottom: 30px; padding-left: 4px;">
+                <div style="margin-bottom: 30px; background: #fff;">
+                    <div style="height: 56px; padding-top: 10px; font-size: 1.5em; text-align: center;background-color: #006EC2; color:white;">ÚČAST NA ZÁVODECH</div>
+                    <ul class="list-group list-group-flush" style="background-color: transparent;">
+                        <li class="list-group-item" style="background-color: transparent;"><img src="./web_/img/medal.png" class="float-left" style="margin-right: 5px;">
+                    <b>Anežka Přemysovna získala zlatou medaily</b>
+                    na MČR žactva ve skoku dalekém. </li>
+                        <li class="list-group-item" style="background-color: transparent;"><b>Mladší žactvo uspělo na Mistrovství JMK</b> a odvezlo si pěknou 5. příčku</li>
+                        <li class="list-group-item" style="background-color: transparent;"><b>Mladší žactvo uspělo na Mistrovství JMK</b> a odvezlo si pěknou 5. příčku</li>
+                        <li class="list-group-item" style="background-color: transparent; border-bottom: none;"><b>Mladší žactvo uspělo na Mistrovství JMK</b> a odvezlo si pěknou 5. příčku</li>
+                    </ul> 
+                    <div style="text-align: center; font-weight: bold; font-size: 1.1em; position: relative;top: 0px; height:30px; background-color: #D9A21B;">Starší výsledky</div> 
+                </div>
+                </div>
+            </div>    
+
+
+            <!-- <div class="row" style="margin: 20px;">
                 <div class="col-sm-12 col-md-6 " style="margin-bottom: 30px; padding-left: 0px;">
                 <div style=" background: rgb(0,110,194);
                 background: linear-gradient(180deg, rgba(0,110,194,1) 0%, rgba(0,110,194,0) 100%);">
@@ -192,7 +238,7 @@
                     <div style="text-align: center; font-weight: bold; font-size: 1.1em; position: relative;top: 0px; height:30px; background-color: #D9A21B;">Starší výsledky</div> 
                 </div>
                 </div>
-            </div>
+            </div> -->
           <!--  <div class="row" style="margin: 20px;">
                 <div class="col-sm-12 col-md-6 arrow_box" style="margin-bottom: 30px; padding-left: 0px;">
                 <div style=" background: rgb(0,110,194);
@@ -305,7 +351,7 @@
                                     Odjezd autobusu na MČR staršího žactva
                                 </a> 
                                 <br>
-                                <span style="font-size: 0.5rem; padding-left: 1%">
+                                <span style="font-size: 0.8rem; padding-left: 1%">
                                     <a href="#">Roman Stejskal</a> | 31. března 2019 | Napsat komentář
                                 </span>    
                                 </span>
@@ -324,7 +370,7 @@
                                     Lenka Slabáková zašla klubovní rekord žen
                                 </a> 
                                 <br>
-                                <span style="font-size: 0.5rem; padding-left: 1%">
+                                <span style="font-size: 0.8rem; padding-left: 1%">
                                     <a href="#">Roman Stejskal</a> | 31. března 2019 | Napsat komentář
                                 </span>    
                                 </span>
@@ -343,7 +389,7 @@
                                   Soňa Kouřilová se umístila na meyistaních zvodech v Polsku
                                 </a> 
                                 <br>
-                                <span style="font-size: 0.5rem; padding-left: 1%">
+                                <span style="font-size: 0.8rem; padding-left: 1%">
                                     <a href="#">Jakub Košťál</a> | 31. března 2019 | Napsat komentář
                                 </span>    
                                 </span>
@@ -361,7 +407,7 @@
                                     Lucie Hudečková překonala klubový rekord dorostenek
                                 </a> 
                                 <br>
-                                <span style="font-size: 0.5rem; padding-left: 1%">
+                                <span style="font-size: 0.8rem; padding-left: 1%">
                                     <a href="#">Jakub Košťál</a> | 31. března 2019 | Napsat komentář
                                 </span>    
                                 </span>
@@ -379,7 +425,7 @@
                                     Je spuštěn nová web klubu
                                 </a> 
                                 <br>
-                                <span style="font-size: 0.5rem; padding-left: 1%">
+                                <span style="font-size: 0.8rem; padding-left: 1%">
                                     <a href="#">Jakub Košťál</a> | 31. března 2019 | Napsat komentář
                                 </span>    
                                 </span>
@@ -397,7 +443,7 @@
                                     Zaplacení klubovních příspevků
                                 </a> 
                                 <br>
-                                <span style="font-size: 0.5rem; padding-left: 1%">
+                                <span style="font-size: 0.8rem; padding-left: 1%">
                                     <a href="#">Jakub Košťál</a> | 31. března 2019 | Napsat komentář
                                 </span>    
                                 </span>
@@ -439,12 +485,14 @@
 			<div class="row">
         			<div class="container">
             				<div class="jumbatron" id="event">
-               					<h5>Nadchzejici udalost</h5> 
-                				<p> dd/mm/rrrr</p>
+               					<h5>Odjezd autobusu na závody</h5> 
+                                <p> 6/12/2022 <br>
+                                 V 7 hodin sraz u Grandu, v 7:10 odjezd </p>
             				</div>
            				<div class="jumbatron" id="event">
-                				<h5>Nadchzejici udalost</h5>
-               					<p>dd/mm/rrrr</p>
+                				<h5>Vstup bohů do valhally</h5>
+                                   <p>7/10/2023 <br>
+                                  Nasledujte ti jenž jste hodni</p>
             				</div>
        				</div>
    			</div>
@@ -454,9 +502,9 @@
            					 <div class="cont-header" style="background-color: #006EC2; height: 40px;">
                 						 Partneři oddílu
             					 </div>
-            						<img src="./web_/img/jm.png" width="300" height="30" style="margin-top: 10px;">
-          						<img src="./web_/img/kamzasportemvbrne-300x96.png" width="300" height="110"style="margin-top: 5px;">
-           						<img src="./web_/img/Logo_Brno.svg.png"width="300" height="85"style="margin-top: 5px;">
+            						<img src="./web_/img/jm.png" width="300" height="30" style="margin-top: 25px;">
+          						<img src="./web_/img/kamzasportemvbrne-300x96.png" width="300" height="110"style="margin-top: 15px;">
+           						<img src="./web_/img/Logo_Brno.svg.png"width="300" height="85"style="margin-top: 15px;">
             						<img src="./web_/img/MSMT_logo_bez_textu_CMYK.png"width="300" height="200">
        					 </div>
        				 </div>
