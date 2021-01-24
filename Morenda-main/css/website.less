@@ -30,7 +30,7 @@
 /* #### VARIABLES ##### */
 /* #################### */
 @club-blue: #006EC2;
-@club-yellow: #FFEC00;
+@club-yellow: #ffa500;
 @club-red: #BD1622;
 
 @almost_black: #333;
@@ -53,7 +53,7 @@ body {
 }
 
 #head-title {
-  font-family: clubFont;
+  font-family: @clubFont;
   text-transform: uppercase;
   font-size: 2em;
   color: #ffffff;
@@ -170,10 +170,24 @@ body {
 #alert { 
   padding: 10px 0px; 
   background-color: #fff;
-  font-family: montserratExtraBold;
+  font-family: @montserratExtraBold;
   margin: 10px 0px 0px 0px;
 }
-
+.box-head-ru{
+ border-left: 8px solid @club-blue; 
+ height: 56px; 
+ padding-top: 10px; 
+ font-size: 1.5em;
+ text-align: center; 
+ background-color: #006EC2;
+ color:white;
+}
+ // transition: all .4s ease-in-out;
+ // border-left: 4px solid #ffa500; 
+ .box-head-ru:hover{
+transition: all .4s ease-in-out;
+ border-left: 8px solid @club-yellow; 
+ }
 /* ###### Alert end ###### */
 
 .section-header {
@@ -187,7 +201,7 @@ body {
 
 /* ###### Newsfeed ###### */
 #newsfeed {
-  background-color: @bg_nonwhite;
+ // background-color: @bg_nonwhite;
 }
 
 .news-box {
@@ -227,7 +241,7 @@ body {
 	height: 0;
 	border-left: 45px solid transparent;
 	border-right: 45px solid transparent;
-  border-top: 35px solid #ffa500;
+  border-top: 35px solid @club-yellow;
   margin: auto;
 }
 
@@ -269,7 +283,7 @@ body {
   color: white;
   width: 100%;
   height: 60px;
-  border-left: 4px solid @club-blue; 
+  border-left: 8px solid @club-blue; 
 }
 .cont-header:hover{
   background-color: @club-blue;  
@@ -277,7 +291,7 @@ body {
   width: 100%;
   height: 60px;
   transition: all .4s ease-in-out;
-  border-left: 4px solid #ffa500; 
+  border-left: 8px solid @club-yellow; 
 }
 /* ###### Calendar ###### */
 #kalendar {
