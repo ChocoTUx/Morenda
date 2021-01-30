@@ -149,6 +149,14 @@ body {
   font-size: 1.5em;
   text-transform: uppercase;
 }
+.orange_line:hover {
+  border-left: 3px solid #ffa500;
+  text-decoration: none;
+  color: #00508d;
+}
+.orange_line {
+  padding-left: 5px;
+}
 .section-header {
   background-color: #006EC2;
   font-size: 1.5em;
